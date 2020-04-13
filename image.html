@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>image</title>
+ <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="footer, address, phone, icons" />
+<link rel="stylesheet" type="text/css" href="CSS/image_1.css">
+<link rel="stylesheet" type="text/css" href="CSS/lightbox.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+ <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js">
+</script>
+<style>
+.hi-slide{
+			position: relative;
+			width: 1000px;
+			height: 300px;
+			margin: 20px auto 0;
+		}
+		.hi-slide .hi-next,
+		.hi-slide .hi-prev{
+			position: absolute;
+			top: 50%;
+			width: 40px;
+			height: 40px;
+			margin-top: -20px;
+			border-radius: 50px;
+			line-height: 40px;
+			text-align: center;
+			cursor: pointer;
+			background-color: white;
+			color: black;
+			transition: all 0.7s;
+			font-size: 20px;			
+			font-weight: bold;
+		}
+		.hi-slide .h1-next:hover,
+		.hi-slide .h1-prev:hover{
+			opacity: 1;
+			background-color: white;
+		}
+		
+		.hi-slide .hi-prev{
+			left: -70px;
+		}
+
+		.hi-slide .hi-prev::before{
+			content:  '<';
+		}
+
+		.hi-slide .hi-next{
+			right: -70px;
+		}
+
+		.hi-slide .hi-next::before{
+			content:'>';
+		}
+		.hi-slide > ul{
+			list-style: none;
+			position: relative;
+			width: 754px;
+			height: 292px;
+			margin: 0;
+			padding: 0;
+		}
+
+		.hi-slide > ul > li{
+			overflow: hidden;
+			position: absolute;
+			z-index: 0;
+			left: 377px;
+			top: 147px;
+			width: 0;
+			height: 0;
+			margin: 0;
+			padding: 0;
+			border: 3px solid white;
+			background-color: #333;
+			cursor: pointer;
+		}
+
+		.hi-slide > ul > li > img{
+			width: 100%;
+			height: 100%;
+			background-position: center;
+		}
+.r{
+border:3px solid black;
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../gallery_back.jpg);
+}
+</style>
+</head>
+<body>
+<header>
+<div class =" main">
+		<div class="logo">
+			<img src="lo.png">
+		</div>
+		<ul>
+			<li ><a href="index.html">Home</a></li>
+			<li ><a href="types.html">Brands</a></li>
+			<li class="active"><a href="#">Gallery</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="contact.html">Contact us</a></li>
+                                            </ul>
+	</div>
+<br><br>
+<h1 class="text"> GALLERY</h1>
+<br>
+<br>
+<br>
+<div class="r">
+	<div class="slide hi-slide">
+		<div class="hi-prev"></div>
+		<div class="hi-next"></div>
+		<ul>
+			<li><img src="audi.png" alt=""></li>
+			<li><img src="ben.png" alt="" ></li>
+			<li><img src="bugati.png" alt="" ></li>
+			<li><img src="ford.png" alt="" ></li>
+			<li><img src="honda.png" alt="" ></li>
+			<li><img src="jazg.png" alt=""></li>
+			<li><img src="lam.png" alt="" ></li>
+			<li><img src="tata.png" alt=""></li>
+			<li><img src="bmw.png" alt="" ></li>
+			<li><img src="ferrari.png" alt=""></li>
+			<li><img src="hyu.png" alt="" ></li>
+			<li><img src="jeep.png" alt=""></li>
+			<li><img src="kia.png" alt="" ></li>
+			<li><img src="land.png" alt="" ></li>
+			<li><img src="mazda.png" alt="" ></li>
+			<li><img src="mer.png" alt="" ></li>
+			<li><img src="nissan.png" alt="" ></li>
+			<li><img src="rollsroyce.png" alt=""></li>
+			<li><img src="skoda.png" alt="" ></li>
+			<li><img src="suzuki.png" alt="" ></li>
+			<li><img src="toyota.png" alt=""></li>
+			<li><img src="volk_b.png" ></li>
+			<li><img src="volvo.png"></li>
+
+
+			
+		</ul>
+	</div>
+<br>
+<br>
+<br>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="js/jquery.hislide.js"></script>
+<script>
+$('.slide').hiSlide();
+</script>
+
+<div class="gallery">
+<a href="audi/r11.jpg" data-lightbox="mygallery" data-title="AUDI-r11"><img src="audi/r11.jpg"></a>
+<a href="audi/r10.jpg"  data-lightbox="mygallery"data-title="AUDI-r10"><img src="audi/r10.jpg"></a>
+<a href="audi/rs5.jpg"  data-lightbox="mygallery" data-title="AUDI-rs5"><img src="audi/rs5.jpg"></a>
+<a href="audi/s1.jpg"  data-lightbox="mygallery" data-title="AUDI-s1"><img src="audi/s1.jpg"></a>
+<a href="audi/a4.jpg"  data-lightbox="mygallery" data-title="AUDI-a4"><img src="audi/a4.jpg"></a>
+<a href="audi/q3.jpg" data-lightbox="mygallery" data-title="AUDI-q3"><img src="audi/q3.jpg"></a>
+<a href="audi/a1.jpg" data-lightbox="mygallery" data-title="AUDI-a1"><img src="audi/a1.jpg"></a>
+<a href="audi/r18.jpg" data-lightbox="mygallery" data-title="AUDI-r18"><img src="audi/r18.jpg"></a>
+<a href="audi/s7.jpg" data-lightbox="mygallery" data-title="AUDI-s7"><img src="audi/s7.jpg"></a>
+
+<a href="bentely/maevelous.jpg" data-lightbox="mygallery" data-title="BENTELY-MARVELOUS"><img src="bentely/maevelous.jpg"></a>
+<a href="bentely/suv.jpg" data-lightbox="mygallery" data-title="BENTELY-SUV"><img src="bentely/suv.jpg"></a>
+<a href="bentely/brookland.jpg" data-lightbox="mygallery" data-title="BENTELY-BROOKLAND"><img src="bentely/brookland.jpg"></a>
+
+<a href="bmw/x1.jpg" data-lightbox="mygallery" data-title="BMW-X1"><img src="bmw/x1.jpg"></a>
+<a href="bmw/x2.jpg" data-lightbox="mygallery" data-title="BMW-X2"><img src="bmw/x2.jpg"></a>
+<a href="bmw/x3.jpg" data-lightbox="mygallery" data-title="BMW-X3"><img src="bmw/x3.jpg"></a>
+<a href="bmw/x4.jpg" data-lightbox="mygallery" data-title="BMW-X4"><img src="bmw/x4.jpg"></a>
+<a href="bmw/x5.jpg" data-lightbox="mygallery" data-title="BMW-X5"><img src="bmw/x5.jpg"></a>
+<a href="bmw/x6.jpg" data-lightbox="mygallery" data-title="BMW-X6"><img src="bmw/x6.jpg"></a>
+<a href="bmw/x7.jpg" data-lightbox="mygallery" data-title="BMW-X7"><img src="bmw/x7.jpg"></a>
+<a href="bmw/z4.jpg" data-lightbox="mygallery" data-title="BMW-z4"><img src="bmw/z4.jpg"></a>
+<a href="bmw/z4_roadster.jpg" data-lightbox="mygallery" data-title="BMW-z4_roadster"><img src="bmw/z4_roadster.jpg"></a>
+
+<a href="bugatti/type_18.jpg" data-lightbox="mygallery" data-title="BUGATTI-TYPE-18"><img src="bugatti/type_18.jpg"></a>
+<a href="bugatti/type_35.jpg" data-lightbox="mygallery" data-title="BUGATTI-TYPE-35"><img src="bugatti/type_35.jpg"></a>
+<a href="bugatti/type_51.jpg" data-lightbox="mygallery" data-title="BUGATTI-TYPE-51"><img src="bugatti/type_51.jpg"></a>
+<a href="bugatti/type_55.jpg" data-lightbox="mygallery" data-title="BUGATTI-TYPE-55"><img src="bugatti/type_55.jpg"></a>
+<a href="bugatti/type_252.jpg" data-lightbox="mygallery" data-title="BUGATTI-TYPE-252"><img src="bugatti/type_252.jpg"></a>
+<a href="bugatti/veyron.jpg" data-lightbox="mygallery" data-title="BUGATTI-VEYRON"><img src="bugatti/veyron.jpg"></a>
+<a href="bugatti/chiron.jpg" data-lightbox="mygallery" data-title="BUGATTI-CHIRON"><img src="bugatti/chiron.jpg"></a>
+<a href="bugatti/eb_110.jpg" data-lightbox="mygallery" data-title="BUGATTI-EB-110"><img src="bugatti/eb_110.jpg"></a>
+<a href="bugatti/latest.jpg" data-lightbox="mygallery" data-title="BUGATTI-LATEST"><img src="bugatti/latest.jpg"></a>
+
+
+<a href="ferrari/488-spider.jpg" data-lightbox="mygallery" data-title="FERRARI-488-SPIDER"><img src="ferrari/488-spider.jpg"></a>
+<a href="ferrari/Ferrari-575M-Maranello.jpg" data-lightbox="mygallery" data-title="FERRARI-Ferrari-575M-Maranello"><img src="ferrari/Ferrari-575M-Maranello.jpg"></a>
+<a href="ferrari/Enzo.jpg" data-lightbox="mygallery" data-title="FERRARI-ENZO"><img src="ferrari/Enzo.jpg"></a>
+<a href="ferrari/Ferrari-312-P.jpg" data-lightbox="mygallery" data-title="FERRARI-Ferrari-312-P"><img src="ferrari/Ferrari-312-P.jpg"></a>
+<a href="ferrari/Ferrari-458-Italia.jpg" data-lightbox="mygallery" data-title="Ferrari-458-Italia"><img src="ferrari/Ferrari-458-Italia.jpg"></a>
+<a href="ferrari/California-T.jpg" data-lightbox="mygallery" data-title="California-T"><img src="ferrari/California-T.jpg"></a>
+<a href="ferrari/550.jpg" data-lightbox="mygallery" data-title="FERRARI-550"><img src="ferrari/550.jpg"></a>
+
+<a href="ford/ford_fusion.jpg" data-lightbox="mygallery" data-title="FORD-FUSION"><img src="ford/ford_fusion.jpg"></a>
+<a href="ford/ford_ranger.jpg" data-lightbox="mygallery" data-title="FORD-RANGER"><img src="ford/ford_ranger.jpg"></a>
+<a href="ford/ford_transit.jpg" data-lightbox="mygallery" data-title="FORD-TRANSIT"><img src="ford/ford_transit.jpg"></a>
+<a href="ford/fusion_energi.jpg" data-lightbox="mygallery" data-title="FORD-ENERGI"><img src="ford/fusion_energi.jpg"></a>
+<a href="ford/explorer.jpg" data-lightbox="mygallery" data-title="FORD-EXPLORER"><img src="ford/explorer.jpg"></a>
+
+<a href="honda/amaze.jpg" data-lightbox="mygallery" data-title="HONDA-AMAZE"><img src="honda/amaze.jpg"></a>
+<a href="honda/city_car.jpg" data-lightbox="mygallery" data-title="HONDA-CITY-CAR"><img src="honda/city_car.jpg"></a>
+<a href="honda/civic.jxr" data-lightbox="mygallery" data-title="HONDA-CIVIC"><img src="honda/civic.jxr"></a>
+<a href="honda/jazz.png" data-lightbox="mygallery" data-title="HONDA-JAZZ"><img src="honda/jazz.png"></a>
+<a href="honda/hr.jxr" data-lightbox="mygallery" data-title="HONDA-HR"><img src="honda/hr.jxr"></a>
+
+
+<a href="hyundai/sonata.jpg" data-lightbox="mygallery" data-title="HYUNDAI-SONATA"><img src="hyundai/sonata.jpg"></a>
+<a href="hyundai/santa.png" data-lightbox="mygallery" data-title="HYUNDAI-SANATA"><img src="hyundai/santa.png"></a>
+<a href="hyundai/verna.png" data-lightbox="mygallery" data-title="HYUNDAI-VERNA"><img src="hyundai/verna.png"></a>
+<a href="hyundai/i10.png" data-lightbox="mygallery" data-title="HYUNDAI-I10"><img src="hyundai/i10.png"></a>
+<a href="hyundai/i20.jpg" data-lightbox="mygallery" data-title="HYUNDAI-I20"><img src="hyundai/i20.jpg"></a>
+<a href="hyundai/elite-i20.jpg" data-lightbox="mygallery" data-title="HYUNDAI-ELITE-I20"><img src="hyundai/elite-i20.jpg"></a>
+
+<a href="jaguar/xe.jpg" data-lightbox="mygallery" data-title="JAGUAR-XE"><img src="jaguar/xe.jpg"></a>
+<a href="jaguar/xf.jpg" data-lightbox="mygallery" data-title="JAGUAR-XF"><img src="jaguar/xf.jpg"></a>
+<a href="jaguar/xf_p.jpg" data-lightbox="mygallery" data-title="JAGUAR-XF_P"><img src="jaguar/xf_p.jpg"></a>
+<a href="jaguar/xj.png" data-lightbox="mygallery" data-title="JAGUAR-XJ"><img src="jaguar/xj.png"></a>
+<a href="jaguar/xk.jpg" data-lightbox="mygallery" data-title="JAGUAR-XK"><img src="jaguar/xk.jpg"></a>
+<a href="jaguar/xk12.png" data-lightbox="mygallery" data-title="JAGUAR-XK12"><img src="jaguar/xk12.png"></a>
+
+<a href="jeep/grand.jpeg" data-lightbox="mygallery" data-title="JEEP-GRAND"><img src="jeep/grand.jpeg"></a>
+<a href="jeep/comman.jpg" data-lightbox="mygallery" data-title="JEEP-COMMAN"><img src="jeep/comman.jpg"></a>
+<a href="jeep/compass.jpeg" data-lightbox="mygallery" data-title="JEEP-COMPASS"><img src="jeep/compass.jpeg"></a>
+<a href="jeep/wrangler.jpeg" data-lightbox="mygallery" data-title="JEEP-WRANGLER"><img src="jeep/wrangler.jpeg"></a>
+
+<a href="kia/carnival.jpeg" data-lightbox="mygallery" data-title="KIA-CARNIVAL"><img src="kia/carnival.jpeg"></a>
+<a href="kia/niro.jpeg" data-lightbox="mygallery" data-title="KIA-NIRO"><img src="kia/niro.jpeg"></a>
+<a href="kia/optima.jpeg" data-lightbox="mygallery" data-title="KIA-OPTIMA"><img src="kia/optima.jpeg"></a>
+<a href="kia/soul.jpeg" data-lightbox="mygallery" data-title="KIA-SOUL"><img src="kia/soul.jpeg"></a>
+<a href="kia/seltos.jpeg" data-lightbox="mygallery" data-title="KIA-SELTOS"><img src="kia/seltos.jpeg"></a>
+
+<a href="lamborghini/aventador.jpeg" data-lightbox="mygallery" data-title="LAMBORGHINI-AVENTADOR"><img src="lamborghini/aventador.jpeg"></a>
+<a href="lamborghini/centenario.jpeg" data-lightbox="mygallery" data-title="LAMBORGHINI-CENTENARIO"><img src="lamborghini/centenario.jpeg"></a>
+<a href="lamborghini/gallardo.jpeg" data-lightbox="mygallery" data-title="LAMBORGHINI-GALLARDO"><img src="lamborghini/gallardo.jpeg"></a>
+<a href="lamborghini/huracan.jpeg" data-lightbox="mygallery" data-title="LAMBORGHINI-HURACAN"><img src="lamborghini/huracan.jpeg"></a>
+<a href="lamborghini/murcielago.jpeg" data-lightbox="mygallery" data-title="LAMBORGHINI-MURACIELAGO"><img src="lamborghini/murcielago.jpeg"></a>
+
+
+<a href="mazda/3.jpg" data-lightbox="mygallery" data-title="MAZDA 3s"><img src="mazda/3.jpg"></a>
+<a href="mazda/5.jpg" data-lightbox="mygallery" data-title="MAZDA 5"><img src="mazda/5.jpg"></a>
+<a href="mazda/b.jpg" data-lightbox="mygallery" data-title="MAZDA B"><img src="mazda/b.jpg"></a>
+<a href="mazda/mx-3.jpg" data-lightbox="mygallery" data-title="MAZDA MX-3"><img src="mazda/mx-3.jpg"></a>
+<a href="mazda/rx-7.jpg" data-lightbox="mygallery" data-title="MAZDA RX-7"><img src="mazda/rx.jpg"></a>
+<a href="mazda/speed.jpg" data-lightbox="mygallery" data-title="MAZDA SPEED"><img src="mazda/speed.jpg"></a>
+<a href="mazda/mx_5.jpg" data-lightbox="mygallery" data-title="MAZDA MX-5"><img src="mazda/mx_5.jpg"></a>
+
+<a href="mercedes/amg gt.jpeg" data-lightbox="mygallery" data-title="MERCEDES AMG GT"><img src="mercedes/amg gt.jpeg"></a>
+<a href=" mercedes/c-class.jpeg" data-lightbox="mygallery" data-title="MERCEDES C-CLASS"><img src=" mercedes/c-class.jpeg"></a>
+<a href="mercedes/e-class.jpeg" data-lightbox="mygallery" data-title="MERCEDES E-CLASS"><img src="mercedes/e-class.jpeg"></a>
+
+<a href="nissan/gt-r.jpg" data-lightbox="mygallery" data-title="NISSAN GT-R"><img src="nissan/gt-r.jpg"></a>
+<a href="nissan/kicks.jpg" data-lightbox="mygallery" data-title="NISSAN KICKS"><img src="nissan/kicks.jpg"></a>
+<a href="nissan/micra.jpg" data-lightbox="mygallery" data-title="NISSAN MICRA"><img src="nissan/micra.jpg"></a>
+<a href="nissan/sunny.jpg" data-lightbox="mygallery" data-title="NISSAN SUNNY"><img src="nissan/sunny.jpg"></a>
+
+<a href="rolls-royce/dawn.jpeg" data-lightbox="mygallery" data-title="ROLLS-ROYCE DAWN"><img src="rolls-royce/dawn.jpeg"></a>
+<a href="rolls-royce/ghost.jpeg" data-lightbox="mygallery" data-title="ROLLS-ROYCE GHOST"><img src="rolls-royce/ghost.jpeg"></a>
+<a href="rolls-royce/wraith.jpeg" data-lightbox="mygallery" data-title="ROLLS-ROYCE WRAITH"><img src="rolls-royce/wraith.jpeg"></a>
+
+<a href="Skoda/Citigo.jpeg" data-lightbox="mygallery" data-title="SKODA CITIGO"><img src="Skoda/Citigo.jpeg"></a>
+<a href="Skoda/Enyaq.jpeg" data-lightbox="mygallery" data-title="SKODA ENYAQ"><img src="Skoda/Enyaq.jpeg"></a>
+<a href="Skoda/Rapid.jpeg" data-lightbox="mygallery" data-title="SKODA RAPID"><img src="Skoda/Rapid.jpeg"></a>
+<a href="Skoda/Scala.jpeg" data-lightbox="mygallery" data-title="SKODA SCALA"><img src="Skoda/Scala.jpeg"></a>
+
+<a href="SUZUKI/alto.jpeg" data-lightbox="mygallery" data-title="SUZUKI ALTO"><img src="suzuki/alto.jpeg"></a>
+<a href="SUZUKI/baleno.jpg" data-lightbox="mygallery" data-title="SUZUKI BALENO"><img src="suzuki/baleno.jpg"></a>
+<a href="SUZUKI/celerio.jpeg" data-lightbox="mygallery" data-title="SUZUKI CELERIO"><img src="suzuki/celerio.jpeg"></a>
+<a href="SUZUKI/s-presso.jpeg" data-lightbox="mygallery" data-title="SUZUKI S-PRESSO"><img src="suzuki/s-presso.jpeg"></a>
+<a href="SUZUKI/eeco.jpeg" data-lightbox="mygallery" data-title="SUZUKI ECCO"><img src="suzuki/eeco.jpeg"></a>
+<a href="SUZUKI/dzire.jpeg" data-lightbox="mygallery" data-title="SUZUKI DZIRE"><img src="suzuki/dzire.jpeg"></a>
+<a href="SUZUKI/ignis.jpg" data-lightbox="mygallery" data-title="SUZUKI IGNIS"><img src="suzuki/ignis.jpg"></a>
+<a href="SUZUKI/swift.jpg" data-lightbox="mygallery" data-title="SUZUKI SWIFT"><img src="suzuki/swift.jpg"></a>
+<a href="SUZUKI/ertiga.jpg" data-lightbox="mygallery" data-title="SUZUKI ERTIGA"><img src="suzuki/ertiga.jpg"></a>
+
+<a href="tata/harrier.jpg" data-lightbox="mygallery" data-title="TATA HARRIER"><img src="tata/harrier.jpg"></a>
+<a href="tata/hexa.jpg" data-lightbox="mygallery" data-title="TATA HEXA"><img src="tata/hexa.jpg"></a>
+<a href="tata/nexon.jpg" data-lightbox="mygallery" data-title="TATA NEXON"><img src="tata/nexon.jpg"></a>
+<a href="tata/tiago.jpg" data-lightbox="mygallery" data-title="TATA TIAGO"><img src="tata/tiago.jpg"></a>
+<a href="tata/tigor.jpg" data-lightbox="mygallery" data-title="TATA TIGOR"><img src="tata/tigor.jpg"></a>
+<a href="tata/safari storme.jpg" data-lightbox="mygallery" data-title="TATA SAFARO STORME"><img src="tata/safari storme.jpg"></a>
+
+<a href="toyota/yaris.jpg" data-lightbox="mygallery" data-title="TOYOTA YARIS"><img src="toyota/yaris.jpg"></a>
+<a href="toyota/prius.jpg" data-lightbox="mygallery" data-title="TOYOTA PRIUS"><img src="toyota/prius.jpg"></a>
+<a href="toyota/glanza.jpg" data-lightbox="mygallery" data-title="TOYOTA GLANZA"><img src="toyota/glanza.jpg"></a>
+<a href="toyota/corolla.jfif" data-lightbox="mygallery" data-title="TOYOTA COROLLA "><img src="toyota/corolla.jfif"></a>
+<a href="toyota/fortuner.jpg" data-lightbox="mygallery" data-title="TOYOTA FORTUNER"><img src="toyota/fortuner.jpg"></a>
+<a href="toyota/vellfire.jpg" data-lightbox="mygallery" data-title="TOYOTA VELLFIRE"><img src="toyota/vellfire.jpg"></a>
+
+<a href="volkswagen/vento.jfif" data-lightbox="mygallery" data-title="volkswagen vento "><img src="volkswagen/vento.jfif"></a>
+<a href="volkswagen/passat.jfif" data-lightbox="mygallery" data-title="volkswagen passat "><img src="volkswagen/passat.jfif"></a>
+<a href="volkswagen/polo.jpg" data-lightbox="mygallery" data-title="volkswagen passat "><img src="volkswagen/polo.jpg"></a>
+
+
+<a href="volvo/s90.jpg" data-lightbox="mygallery" data-title="VOLVO S90"><img src="volvo/s90.jpg"></a>
+<a href="volvo/v90.jpg" data-lightbox="mygallery" data-title="VOLVO V90"><img src="volvo/v90.jpg"></a>
+<a href="volvo/xc40.jfif" data-lightbox="mygallery" data-title="VOLVO XC40"><img src="volvo/xc40.jfif"></a>
+<a href="volvo/s60.jfif" data-lightbox="mygallery" data-title="VOLVO S60 "><img src="volvo/s60.jfif"></a>
+</div></div>
+
+<footer class="footer-distributed">
+ 
+			<div class="footer-left">
+        				  <img src="lo.png">
+				<h3>About<span>Bhadani's</span></h3>
+ 
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					|
+					<a href="type.html">Brands</a>|
+					<a href="image.html">Gallery</a>
+					|
+					<a href="about.html">About</a>
+					|
+					<a href="contact.html">Contact</a>
+				</p>
+ 
+				<p class="footer-company-name">©Ruchi Bhadani Pvt. Ltd.</p>
+			</div>
+ 
+			<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					  <p><span>27,Madhav Kunj,soc,
+						Dabholi Road,</span>
+						Surat-395004</p>
+				</div>
+ 
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+91 9879152215</p>
+				</div>
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:17se02it007@ppsu.ac.in">17se02it007@ppsu.ac.in</a></p>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p class="footer-company-about">
+					<span>About the company</span>
+					We provides each and every brands car and also provides information and features.</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-instagram"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+		</footer>
+</body>
+</html>
